@@ -53,7 +53,6 @@ public class X12FileProcessor {
                 isInSegment = false;
                 // Write the captured segment to the output file
                 writer.write(segmentBuffer.toString());
-                //writer.write(System.lineSeparator());
             }
         }
     }
